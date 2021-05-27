@@ -1,0 +1,26 @@
+{
+  "name": "engineering",
+  "version": "1.0.0",
+  "description": "> 这只是一个简单的学习Demo\r >\r > 记录自己学习的一些工程化相关的项目文件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install",
+    "commitmsg": "commitlint --edit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karaZero/PhpEngineeringDemo.git"
+  },
+  "author": "karaZero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karaZero/PhpEngineeringDemo/issues"
+  },
+  "homepage": "https://github.com/karaZero/PhpEngineeringDemo#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "husky": "^6.0.0"
+  }
+}
