@@ -18,6 +18,12 @@
 ```shell
 npm i | npm install
 ```
+**npm WARN lifecycle engineering@1.0.0~prepare: cannot run in wd 错误请使用下列命令**
+
+```shell
+npm install --unsafe-perm
+```
+
 
 ## commitlint verify commit message
 
